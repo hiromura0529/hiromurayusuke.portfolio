@@ -172,9 +172,6 @@ body{
     margin-top: 37px;
     margin-bottom: 36px;
 }
-.menu-icon{
-    display: none;
-}
 .header{
     justify-content: space-between;
     display: flex;
@@ -416,16 +413,17 @@ footer p{
         height: 51px;
     }
     .list{
-        display: none;
+        font-size: 5px;
+        margin: initial;
+        margin-top: 25px;
     }
-    .menu-icon{
-        display: block;
-        margin-right: 12.5px;
+    .item{
+        margin: initial;
+        margin-right: 10px;
     }
-    .fa{
-        font-size: 1.3em;
-        color: #707070;
-        margin-top: 18px;
+    .item1{
+        margin: initial;
+        margin-right: 15px;
     }
     .logo{
         margin: initial;
